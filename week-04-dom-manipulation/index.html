@@ -6,12 +6,40 @@
     <script src="script.js"></script>
   </head>
   <body>
+<div id="header">
+<h1> LET'S PLAY MAD LIBS</h1>
+<br><br>
+</div>
     <div id="inputs">
-      <div>Give me an adjective: <input id="adjective-one-input" /></div>
-      <button onclick="fillOutputs();">Done</button>
+      <div>Give me an <u>adjective</u>: <input id="adjective-one-input" /></div>
+
+      <div>Give me a <u>plural noun</u>: <input id="noun-one-input"/><div/>
+
+      <div>Give me a <u>verb</u> ending in <b>"ing"</b>: <input id="verb-one-input"/></div>
+
+      <div>Now, another <u>adjective</u>: <input id="adjective-two-input"/></div>
+
+      <div>What was your <u>plural noun from above</u> again?: <input id="noun-two-input"/></div>
+
+      <div>Type the word <b>"help"</b> in the box: <input id="help-input"/></div>
+
+      <button onclick="fillOutputs();">Submit</button>
     </div>
+<br>
     <div id="output">
-      The <span id="adjective-one-output"></span> fox jumped over the lazy dog.
-    </div>
+      <br><br>It was a <span id="adjective-one-output"></span> day in FairyTale Town.
+
+      The three little <span id="noun-one-output"></span> had finally had enough of each other,
+      it was time to build their own houses.
+
+     <span id="verb-one-output"></span> in the woods was the <span id="adjective-two-output"></span>, old wolf.
+
+     Noticing the <span id="noun-two-output"></span> struggling to complete their builds, he came up with a genuis idea.
+
+     It was literally just to <span id="help-output"></span> them. Rude of you to assume anything differently.
+     <p>- <i>William W. Wolfe</i><br><br></p>
+     <br><br>
+     <iframe src="https://giphy.com/embed/JTaiR0dFmUEKzgNZRd" width="288" height="162" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+     </div>
   </body>
 </html>

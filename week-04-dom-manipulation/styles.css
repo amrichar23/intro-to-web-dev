@@ -1,8 +1,46 @@
+#header {
+  font-family: courier;
+  color: DodgerBlue;
+  text-align: center;
+
+}
+
+
+#inputs {
+  font-family: courier;
+  color: #de5d83;
+  text-align: right;
+  font-size: x-large;
+}
+
 #output {
   /* Output starts invisible */
   display: none;
+  color: DodgerBlue;
+  font-family: courier;
+  text-align: center;
+  border-style: double;
+  border-color: #de5d83;
 }
 
 #adjective-one-output {
+  font-weight: bold;}
+
+#noun-one-output {
   font-weight: bold;
+}
+
+#verb-one-output {
+  font-weight: bold;
+}
+#adjective-two-output {
+  font-weight: bold;}
+
+#noun-two-output {
+  font-weight: bold}
+
+#help-output {
+  font-weight: bold;
+}
+
 }
