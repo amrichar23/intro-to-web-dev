@@ -6,16 +6,25 @@ function submitAnswerOne() {
   // Get the text from answer one's input element
   const answerOne = answerOneInput.value;
 
-  if(answerOne == 'cat') {
-    alert("That's right!");
+  if(answerOne >99) {
+    alert("WRONG! The answer is double digits");
+  } else if(answerOne <10) {
+    alert('WRONG! The answer has more than one digit');
+  } else if(answerOne >24) {
+    alert('WRONG! You are too high!');
+  } else if(answerOne <22) {
+    alert('WRONG! Too low!');
+  } else if(answerOne ==24) {
+    alert('Sooo close, guess again!');
+  } else if(answerOne ==22) {
+    alert('Sooo close, guess again!');
+  } else {
+    alert('DING! DING! DING! We have a winner!');
     hide('question-one');
     show('question-two');
-  } else if(answerOne == 'dog') {
-    alert('Close, but my favorite animal runs away from dogs.');
-  } else {
-    alert('Wrong! Hint: My favorite animal meows.')
   }
-}
+  }
+
 
 // When this function is called, it takes the user's answer to the second
 // question and uses if statements to check whether it's correct.
@@ -25,14 +34,14 @@ function submitAnswerTwo() {
   // Get the number from answer two's input element
   const answerTwo = answerTwoInput.value;
 
-  if(answerTwo == 42) {
-    alert("That's right!");
+  if(answerTwo >0) {
+    alert("The answer is not a number, it's a beverage!");
+  } else if(answerTwo !='coffee') {
+    alert('WRONG!Think warm and caffeinated...');
+  } else {
+    alert('BINGO!');
     hide('question-two');
     show('done');
-  } else if(answerTwo < 42) {
-    alert('The answer is higher.');
-  } else {
-    alert('The answer is lower.')
   }
 }
 

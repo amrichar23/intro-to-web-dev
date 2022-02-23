@@ -1,7 +1,30 @@
+#background {
+  background-image: url(https://img.freepik.com/free-vector/watercolor-gothic-floral-frame_52683-81543.jpg?w=740);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#question-one {
+  font-family:fangsong;
+  font-size: x-large;
+  color: darkSeaGreen;
+  text-align: center;
+  }
+
 #question-two {
   display: none;
+  font-family: fangsong;
+  font-size: x-large;
+  color: darkRed;
+  text-align: center;
 }
 
 #done {
   display: none;
+  font-family:fangsong;
+  font-size: xxx-large;
+  color: black;
+  background-color: #FFF0F5;
+  text-align: center;
 }
