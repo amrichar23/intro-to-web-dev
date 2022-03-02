@@ -1,0 +1,93 @@
+#title {
+  text-align: center;
+  background-color: hotpink;
+  font-family: fangsong;
+}
+
+#by-line {
+  text-align: center;
+  background-color: greenyellow;
+  font-family: fangsong;
+}
+
+#speech {
+  text-align: center;
+  color: white;
+  font-family: fangsong;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.different-words {
+  column-count: 6;
+  font-family: fangsong;
+  font-weight: bolder;
+}
+
+#long-words{
+  color: hotpink;
+  background-color: black;
+  opacity: 0.7;
+}
+.long {
+  color: hotpink;
+  text-align: center;
+  border-style: double;
+}
+
+.short {
+  border-style: double;
+  text-align: center;
+  color: white;
+
+}
+
+#short-words {
+  color:white;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.Amanda {
+  border-style: double;
+  color: greenyellow;
+}
+
+#name-words {
+  background-color: black;
+  opacity: 0.7;
+  color: limegreen;
+}
+
+.longest {
+  border-style: double;
+  color: yellow;
+}
+
+#longest-word {
+  background-color: black;
+  opacity: 0.7;
+  color: yellow;
+}
+
+.third {
+  border-style: double;
+  color: orange;
+}
+
+#third-word {
+  background-color: black;
+  opacity: 0.7;
+  color: orange;
+}
+
+.uncommon {
+  color: orchid;
+  border-style: double;
+}
+
+#uncommon-words {
+  background-color: black;
+  opacity: 0.7;
+  color: orchid;
+}
