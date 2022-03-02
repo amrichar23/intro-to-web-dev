@@ -84,12 +84,12 @@ function displayLongestWord() {
 
     if(wordsArray[i].length > longestWord.length) {
       longestWord = wordsArray[i];
-      const wordElement = document.createElement('li');
-       wordElement.innerText = wordsArray[i];
-       longestWordElement.appendChild(wordElement);
     }
   }
-}
+  const wordElement = document.createElement('li');
+   wordElement.innerText = longestWord;
+   longestWordElement.appendChild(wordElement);}
+
 function displayThirdWord() {
   let thirdWordElement = document.getElementById('third-word');
 
