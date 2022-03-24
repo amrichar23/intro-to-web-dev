@@ -21,6 +21,7 @@ function loadContent() {
 
   loadTable();
   loadHighestRated();
+  loadAverageRating();
 }
 
 // Adds a task to the array and reloads the page content.

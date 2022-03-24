@@ -1,3 +1,31 @@
 td {
-  border: thin solid black;
+  border: thin solid navy;
+}
+
+body{
+  font-family: Arial;
+  font-size: x-large;
+  font-weight: bolder;
+  padding-left: 800px;
+  padding-right:175px;
+  background-image: url("https://wallpapercave.com/dwp1x/wp4016036.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#heading{
+  color: white;
+  text-align: center;
+}
+
+#secondheading{
+  color: white;
+  text-align: center;
+
+}
+
+#table-container{
+  text-align: center;
+
 }
