@@ -1,8 +1,59 @@
+#body {
+  background-color: darkred;
+}
+
 #images {
-  width: 500px;
-  border: thin solid black;
+  background-color: white;
+  padding: auto;
+  margin: auto;
+  text-align: center;
+  width: 1250px;
+  border: thin solid darkred;
 }
 
 #images img {
-  width: 100px;
+  width: 200px;
+}
+
+#title {
+  text-align: center;
+  font-family: fangsong;
+  font-size: 5vw;
+  color: black;
+  background-color: white;
+}
+
+.flex-container {
+  margin-top: 50px;
+  margin: 50px;
+  display:flex;
+  justify-content: space-around;
+}
+
+#iwlinks{
+
+  background-color: white;
+  font-family: times-new-roman;
+  text-align: justify;
+  padding-left: 10px;
+}
+
+#languages {
+  padding-left: 20px;
+  background-color: white;
+  font-family: time-new-roman;
+  text-align: right;
+  text-align: justify;
+}
+
+#links {
+  padding-left: 20px;
+  background-color: white;
+  font-family: times-new-roman;
+  text-align: justify;
+}
+
+.heading {
+  color: darkred;
+  font-size: 2vw;
 }
